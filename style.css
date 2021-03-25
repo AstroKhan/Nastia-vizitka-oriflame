@@ -1,0 +1,66 @@
+#upMiddle {
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-bottom: 2%;
+	margin-top: 3%;
+}
+
+h1 {
+  text-shadow: 4px 4px 5px grey;
+  font-size: xx-large;
+  text-align: center;
+}
+
+p {
+  font-size: x-large;
+  text-align: left;
+  letter-spacing: 0.15em;
+}
+#nastia {
+	border: 3px solid black;
+	border-radius: 50%;
+	max-width: 35%;
+}
+#orif {
+	max-width: 40%;
+	border-radius: 20%;
+	border: 2px solid black;
+	transform: rotate(-90deg);
+	margin-left: 5%;
+}
+ /* #footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
+#footer {
+   position: static;
+   left:0px;
+   bottom:10%;
+   top: 50%;
+   height:10%;
+   width:100%;
+   
+}
+#footer p, h3 {
+	margin-left: 5%;
+	margin-right: 3%;
+	
+}
+#middle {
+	display: block;
+	margin-bottom : 5%;
+	padding-bottom: 5%;
+}
+
+#canvas_container {
+          width: 80%;
+          height: 30%;
+          overflow: auto;
+      }
+ 
+      #canvas_container {
+        background: #333;
+        text-align: center;
+        border: solid 3px;
+      }
