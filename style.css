@@ -123,3 +123,51 @@ p {
   box-shadow: 0 0 10px 0 #F137A6 inset, 0 0 10px 4px #F137A6;
   color: #F137A6;
 }
+
+/*
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+	display: inline;
+}
+
+
+
+.telegram a:hover {background: #249bd7; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+*/
+
+.social {display: inline-block;}
+.social a {
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin: 1px 0.1rem 20px 3rem;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 24px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.social a:hover {
+	border-color: #888;
+	opacity: .8;
+}
+.social svg {
+	margin-top: 7px;
+	width: 32px;
+	height: 32px;
+}
+.telegram a {background: #249bd7}
+.vk a {background: #4a76a8}
+.whatsapp a {background: #50b154}
