@@ -38,19 +38,19 @@ p {
    left:0px;
    bottom:10%;
    top: 50%;
-   height:10%;
+   height:8%;
    width:100%;
    
 }
-#footer p, h3 {
-	margin-left: 5%;
-	margin-right: 3%;
+#footer h3 {
+	margin-left: 6%;
+	
 	
 }
 #middle {
 	display: block;
-	margin-bottom : 5%;
-	padding-bottom: 5%;
+	margin-bottom : 3%;
+	padding-bottom: 3%;
 }
 
 #canvas_container {
@@ -131,7 +131,7 @@ p {
 	display: block;
 	width: 48px;
 	height: 48px;
-	margin: 1px 0.1rem 5px 3em;
+	margin: 1px 0.1rem 20px 3.5em;
 	text-align: center;
 	color: #fff;
 	border: 1px solid #ccc;
